@@ -1,0 +1,25 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+tensorflow = "*"
+keras = "==1.2.2"
+"h5py" = "*"
+pydot-ng = "*"
+pillow = "*"
+graphviz = "*"
+coremltools = "*"
+
+
+[dev-packages]
+
+
+
+[requires]
+
+python_version = "3.6"

@@ -1,0 +1,5 @@
+/home/james/realtime_food_detector/dataset/images/006.jpg
+/home/james/realtime_food_detector/dataset/images/009.jpg
+/home/james/realtime_food_detector/dataset/images/015.jpg
+/home/james/realtime_food_detector/dataset/images/018.jpg
+/home/james/realtime_food_detector/dataset/images/024.jpg

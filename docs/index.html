@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>Deep Yogurtector</title>
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h3><img style="margin:0; background: none; border: none; box-shadow: none;" src="pics/icon-yogurt.png"/><br/>+<br/>Deep Learning<br/>+<br/>Augmentated Reality</h3>
+				</section>
+				<section>
+					<img style="margin:0; background: none; border: none; box-shadow: none;" src="pics/yoghurt logo.png"/>
+					<h1>Deep Yogurtector</h1>
+					<h5>Make the whole shopping experience easier and faster!</h5>
+				</section>
+				<section>
+					<h3>Shopping is Overwhelming!</h3>
+					<br/>
+					<p>
+						Too many products!<br/>
+						Which ones are healthy?<br/>
+						Which ones fit my diet?
+					</p>
+				</section>
+				<section>
+					<p>Buy no more crap!</p>
+					<br/>
+					<p><strong>Deep Yogurtector</strong> helps find out in realtime which product you really need.</p>
+				</section>
+				<section>
+					<h5>The tech we used</h5>
+					<ul>
+						<li>Tensor Flow for image classification with MobileNet deep learning model</li>
+						<li>CoreML to run Machine Learning on iOS</li>
+						<li>ARKit for iOS Augmented Reality</li>
+					</ul>
+				</section>
+				<section>
+					<h5>And lot of patience...</h5>
+				<video data-autoplay data-src="pics/training.mp4" type="video/mp4"></video>
+			</section>
+			<section>
+				<h2>Demo Time</h2>
+			</section>
+			<section>
+			<video data-autoplay data-src="pics/demo.mp4" type="video/mp4"></video>
+		</section>
+		<section>
+			<h5>Frederik Riedel</h5>
+			<a target="_blank" href="https://github.com/frogg">https://github.com/frogg</a>
+			<br/><br/>
+			<h5>James Lafa</h5>
+			<a target="_blank" href="https://github.com/jameslafa">https://github.com/jameslafa</a>
+		</section>
+	</div>
+</div>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+<script>
+	// More info about config & dependencies:
+	// - https://github.com/hakimel/reveal.js#configuration
+	// - https://github.com/hakimel/reveal.js#dependencies
+	Reveal.initialize({
+		dependencies: [
+		{ src: 'plugin/markdown/marked.js' },
+		{ src: 'plugin/markdown/markdown.js' },
+		{ src: 'plugin/notes/notes.js', async: true },
+		{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+		]
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		517A86732033121B005B5400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A86722033121B005B5400 /* AppDelegate.swift */; };
+		517A86752033121B005B5400 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A86742033121B005B5400 /* ViewController.swift */; };
+		517A86782033121B005B5400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517A86762033121B005B5400 /* Main.storyboard */; };
+		517A867A2033121E005B5400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517A86792033121E005B5400 /* Assets.xcassets */; };
+		517A867D2033121E005B5400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517A867B2033121E005B5400 /* LaunchScreen.storyboard */; };
+		517A86882033121E005B5400 /* EDEKA_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A86872033121E005B5400 /* EDEKA_AppTests.swift */; };
+		517A86932033121E005B5400 /* EDEKA_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517A86922033121E005B5400 /* EDEKA_AppUITests.swift */; };
+		517A86A12033124B005B5400 /* EDEKAClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 517A86A02033124B005B5400 /* EDEKAClassifier.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		517A86842033121E005B5400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 517A86672033121A005B5400 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 517A866E2033121B005B5400;
+			remoteInfo = "EDEKA App";
+		};
+		517A868F2033121E005B5400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 517A86672033121A005B5400 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 517A866E2033121B005B5400;
+			remoteInfo = "EDEKA App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		517A866F2033121B005B5400 /* EDEKA App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EDEKA App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		517A86722033121B005B5400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		517A86742033121B005B5400 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		517A86772033121B005B5400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		517A86792033121E005B5400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		517A867C2033121E005B5400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		517A867E2033121E005B5400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		517A86832033121E005B5400 /* EDEKA AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EDEKA AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		517A86872033121E005B5400 /* EDEKA_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDEKA_AppTests.swift; sourceTree = "<group>"; };
+		517A86892033121E005B5400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		517A868E2033121E005B5400 /* EDEKA AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EDEKA AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		517A86922033121E005B5400 /* EDEKA_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDEKA_AppUITests.swift; sourceTree = "<group>"; };
+		517A86942033121E005B5400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		517A86A02033124B005B5400 /* EDEKAClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = EDEKAClassifier.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		517A866C2033121B005B5400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517A86802033121E005B5400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517A868B2033121E005B5400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		517A86662033121A005B5400 = {
+			isa = PBXGroup;
+			children = (
+				517A86712033121B005B5400 /* EDEKA App */,
+				517A86862033121E005B5400 /* EDEKA AppTests */,
+				517A86912033121E005B5400 /* EDEKA AppUITests */,
+				517A86702033121B005B5400 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		517A86702033121B005B5400 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				517A866F2033121B005B5400 /* EDEKA App.app */,
+				517A86832033121E005B5400 /* EDEKA AppTests.xctest */,
+				517A868E2033121E005B5400 /* EDEKA AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		517A86712033121B005B5400 /* EDEKA App */ = {
+			isa = PBXGroup;
+			children = (
+				517A86A02033124B005B5400 /* EDEKAClassifier.mlmodel */,
+				517A86722033121B005B5400 /* AppDelegate.swift */,
+				517A86742033121B005B5400 /* ViewController.swift */,
+				517A86762033121B005B5400 /* Main.storyboard */,
+				517A86792033121E005B5400 /* Assets.xcassets */,
+				517A867B2033121E005B5400 /* LaunchScreen.storyboard */,
+				517A867E2033121E005B5400 /* Info.plist */,
+			);
+			path = "EDEKA App";
+			sourceTree = "<group>";
+		};
+		517A86862033121E005B5400 /* EDEKA AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				517A86872033121E005B5400 /* EDEKA_AppTests.swift */,
+				517A86892033121E005B5400 /* Info.plist */,
+			);
+			path = "EDEKA AppTests";
+			sourceTree = "<group>";
+		};
+		517A86912033121E005B5400 /* EDEKA AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				517A86922033121E005B5400 /* EDEKA_AppUITests.swift */,
+				517A86942033121E005B5400 /* Info.plist */,
+			);
+			path = "EDEKA AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		517A866E2033121B005B5400 /* EDEKA App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 517A86972033121E005B5400 /* Build configuration list for PBXNativeTarget "EDEKA App" */;
+			buildPhases = (
+				517A866B2033121B005B5400 /* Sources */,
+				517A866C2033121B005B5400 /* Frameworks */,
+				517A866D2033121B005B5400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EDEKA App";
+			productName = "EDEKA App";
+			productReference = 517A866F2033121B005B5400 /* EDEKA App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		517A86822033121E005B5400 /* EDEKA AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 517A869A2033121E005B5400 /* Build configuration list for PBXNativeTarget "EDEKA AppTests" */;
+			buildPhases = (
+				517A867F2033121E005B5400 /* Sources */,
+				517A86802033121E005B5400 /* Frameworks */,
+				517A86812033121E005B5400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				517A86852033121E005B5400 /* PBXTargetDependency */,
+			);
+			name = "EDEKA AppTests";
+			productName = "EDEKA AppTests";
+			productReference = 517A86832033121E005B5400 /* EDEKA AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		517A868D2033121E005B5400 /* EDEKA AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 517A869D2033121E005B5400 /* Build configuration list for PBXNativeTarget "EDEKA AppUITests" */;
+			buildPhases = (
+				517A868A2033121E005B5400 /* Sources */,
+				517A868B2033121E005B5400 /* Frameworks */,
+				517A868C2033121E005B5400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				517A86902033121E005B5400 /* PBXTargetDependency */,
+			);
+			name = "EDEKA AppUITests";
+			productName = "EDEKA AppUITests";
+			productReference = 517A868E2033121E005B5400 /* EDEKA AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		517A86672033121A005B5400 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = HackMind;
+				TargetAttributes = {
+					517A866E2033121B005B5400 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					517A86822033121E005B5400 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 517A866E2033121B005B5400;
+					};
+					517A868D2033121E005B5400 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 517A866E2033121B005B5400;
+					};
+				};
+			};
+			buildConfigurationList = 517A866A2033121B005B5400 /* Build configuration list for PBXProject "EDEKA App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 517A86662033121A005B5400;
+			productRefGroup = 517A86702033121B005B5400 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				517A866E2033121B005B5400 /* EDEKA App */,
+				517A86822033121E005B5400 /* EDEKA AppTests */,
+				517A868D2033121E005B5400 /* EDEKA AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		517A866D2033121B005B5400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517A867D2033121E005B5400 /* LaunchScreen.storyboard in Resources */,
+				517A867A2033121E005B5400 /* Assets.xcassets in Resources */,
+				517A86782033121B005B5400 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517A86812033121E005B5400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517A868C2033121E005B5400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		517A866B2033121B005B5400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517A86A12033124B005B5400 /* EDEKAClassifier.mlmodel in Sources */,
+				517A86752033121B005B5400 /* ViewController.swift in Sources */,
+				517A86732033121B005B5400 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517A867F2033121E005B5400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517A86882033121E005B5400 /* EDEKA_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517A868A2033121E005B5400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517A86932033121E005B5400 /* EDEKA_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		517A86852033121E005B5400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 517A866E2033121B005B5400 /* EDEKA App */;
+			targetProxy = 517A86842033121E005B5400 /* PBXContainerItemProxy */;
+		};
+		517A86902033121E005B5400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 517A866E2033121B005B5400 /* EDEKA App */;
+			targetProxy = 517A868F2033121E005B5400 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		517A86762033121B005B5400 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				517A86772033121B005B5400 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		517A867B2033121E005B5400 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				517A867C2033121E005B5400 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		517A86952033121E005B5400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		517A86962033121E005B5400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		517A86982033121E005B5400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52U6XAJSSF;
+				INFOPLIST_FILE = "EDEKA App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.hackmind.EDEKA-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		517A86992033121E005B5400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52U6XAJSSF;
+				INFOPLIST_FILE = "EDEKA App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.hackmind.EDEKA-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		517A869B2033121E005B5400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52U6XAJSSF;
+				INFOPLIST_FILE = "EDEKA AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.hackmind.EDEKA-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EDEKA App.app/EDEKA App";
+			};
+			name = Debug;
+		};
+		517A869C2033121E005B5400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52U6XAJSSF;
+				INFOPLIST_FILE = "EDEKA AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.hackmind.EDEKA-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EDEKA App.app/EDEKA App";
+			};
+			name = Release;
+		};
+		517A869E2033121E005B5400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52U6XAJSSF;
+				INFOPLIST_FILE = "EDEKA AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.hackmind.EDEKA-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EDEKA App";
+			};
+			name = Debug;
+		};
+		517A869F2033121E005B5400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52U6XAJSSF;
+				INFOPLIST_FILE = "EDEKA AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ai.hackmind.EDEKA-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EDEKA App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		517A866A2033121B005B5400 /* Build configuration list for PBXProject "EDEKA App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517A86952033121E005B5400 /* Debug */,
+				517A86962033121E005B5400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		517A86972033121E005B5400 /* Build configuration list for PBXNativeTarget "EDEKA App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517A86982033121E005B5400 /* Debug */,
+				517A86992033121E005B5400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		517A869A2033121E005B5400 /* Build configuration list for PBXNativeTarget "EDEKA AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517A869B2033121E005B5400 /* Debug */,
+				517A869C2033121E005B5400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		517A869D2033121E005B5400 /* Build configuration list for PBXNativeTarget "EDEKA AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517A869E2033121E005B5400 /* Debug */,
+				517A869F2033121E005B5400 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 517A86672033121A005B5400 /* Project object */;
+}

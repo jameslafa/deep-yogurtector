@@ -1,0 +1,5 @@
+classes = 5
+train  = /home/james/realtime_food_detector/data/train.txt
+valid  = /home/james/realtime_food_detector/data/test.txt
+names = /home/james/realtime_food_detector/data/articles.names
+backup = /home/james/realtime_food_detector/backup/
